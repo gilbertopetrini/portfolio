@@ -3,6 +3,8 @@ import { TbHtml } from "react-icons/tb";
 import { MdCss } from "react-icons/md";
 import { FaReact } from "react-icons/fa";
 import { FaJsSquare } from "react-icons/fa";
+import { RiTailwindCssFill } from "react-icons/ri";
+import { FaBootstrap } from "react-icons/fa";
 
 export default function Greetings2(){
     return(
@@ -12,8 +14,8 @@ export default function Greetings2(){
                     <img src="/saudacoes.png" className={styles.saudacoesimg}></img>
                     <div className={styles.sobreMimContainer}>
                         <h6>
-                        Presentemente, estou cursando o <strong>segundo período</strong> de <strong>Análise e Desenvolvimento de Sistemas</strong> na universidade UniCarioca. Pessoalmente, estou me aprofundando em <strong>ReactJs</strong> e em breve pretendo estudar Mobile.<br/><br/><br/>
-                        Atualmente, estou com <strong>18 anos</strong>, porém, meu primeiro contato com a programação foi aos 16, fazendo modificações de textura para um jogo. Desde então, soube que queria seguir carreira na área e escolhi minha faculdade com convicção.
+                        Presentemente, estou cursando o <strong>terceiro período</strong> de <strong>Análise e Desenvolvimento de Sistemas</strong> na universidade UniCarioca. Pessoalmente, estou me aprofundando em <strong>Dados</strong> e em breve pretendo estudar Mobile.<br/><br/><br/>
+                        Atualmente, estou com <strong>19 anos</strong>, porém, meu primeiro contato com a programação foi aos 16, fazendo modificações de textura para um jogo. Desde então, soube que queria seguir carreira na área e escolhi minha faculdade com convicção.
                         </h6>
                         <img src="/ptrn.png" className={styles.sbimage}></img>
                     </div>
@@ -27,6 +29,8 @@ export default function Greetings2(){
                             <MdCss className={styles.icone}/>
                             <FaJsSquare className={styles.icone}/>
                             <FaReact className={styles.icone}/>
+                            <RiTailwindCssFill className={styles.icone}/>
+                            <FaBootstrap className={styles.icone}/>
                         </div>
                     </div>
                 </div>
