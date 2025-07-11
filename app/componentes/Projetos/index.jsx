@@ -15,7 +15,15 @@ export default function Projetos() {
                 </div>
                 <div className={Styles.projetosmain}>
 
-                    <div className={Styles.projetos}>                       
+                    <div className={Styles.projetos}> 
+
+                        <ProjetosProps
+                        href="/jradv"
+                        imagem="./jradv.png"
+                        titulo="Dr. Júnior Almeida"
+                        descricao={<span><strong>Aplicação web</strong> para auxiliar a comunicação entre advogado e clientes via <strong>manipulação de mensagens</strong> pelo whatsapp.</span>}
+                        />
+
                         <ProjetosProps
                         href="/medeiros"
                         imagem="./medeiros.png"
@@ -28,14 +36,7 @@ export default function Projetos() {
                         titulo="Meu portfólio!"
                         descricao={<span>Listei alguns pontos <strong>muito interessantes</strong> do meu portfólio. Vale a pena dar uma olhada! 😉</span>}
                         />
-                        <ProjetosProps
-                        href="/learnxperience"
-                        imagem="/teste.png"
-                        titulo="LearNXperience - Em breve"
-                        descricao={<span>Biblioteca onde os 
-                            usuários podem encontrar uma vasta gama de links para <strong>cursos gratuitos</strong> de 
-                            programação em diferentes áreas.</span>}
-                        />
+                        
                         <ProjetosProps
                         href="/taskpay"
                         imagem="./taskpay.png"
