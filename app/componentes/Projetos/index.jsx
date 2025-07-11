@@ -37,14 +37,6 @@ export default function Projetos() {
                         descricao={<span>Listei alguns pontos <strong>muito interessantes</strong> do meu portfólio. Vale a pena dar uma olhada! 😉</span>}
                         />
                         
-                        <ProjetosProps
-                        href="/taskpay"
-                        imagem="./taskpay.png"
-                        titulo="TaskPay - Em breve"
-                        descricao={<span>Aplicativo onde pais transformam tarefas domésticas em uma experiência 
-                            divertida e recompensadora para seus filhos, <strong>gamificando</strong> os afazeres do dia a
-                             dia.</span>}
-                        />
                     </div>
                 </div>
             </div>
