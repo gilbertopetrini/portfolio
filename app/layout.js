@@ -9,7 +9,7 @@ const poppins = Poppins({
 
 export const metadata = {
   title: "ptrn",
-  description: "Portifólio de Gilberto Petrini",
+  description: "Portfólio de Gilberto Petrini",
 };
 
 export default function RootLayout({ children }) {
