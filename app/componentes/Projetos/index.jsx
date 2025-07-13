@@ -19,7 +19,7 @@ export default function Projetos() {
 
                         <ProjetosProps
                         href="/jradv"
-                        imagem="./jradv.png"
+                        imagem="./jradv2.png"
                         titulo="Dr. Júnior Almeida"
                         descricao={<span><strong>Aplicação web</strong> para auxiliar a comunicação entre advogado e clientes via <strong>manipulação de mensagens</strong> pelo whatsapp.</span>}
                         />
