@@ -4,6 +4,7 @@ import { FaCheck } from "react-icons/fa";
 import { FaClockRotateLeft } from "react-icons/fa6";
 import Link from "next/link";
 import ProjetosProps from "./props.jsx";
+import ProjetosProps2 from "./props2";
 
 
 export default function Projetos() {
@@ -16,6 +17,13 @@ export default function Projetos() {
                 <div className={Styles.projetosmain}>
 
                     <div className={Styles.projetos}> 
+
+                        <ProjetosProps2 className={Styles.teste}
+                        href="https://www.instagram.com/organizafinanc/"
+                        imagem="./verdinha.png"
+                        titulo="Sua amiga financeira verdinha"
+                        descricao={<span>Minha planilha de controle financeiro alcançou o <strong>top 100</strong> nacional de produtos mais vendidos por <strong>duas semanas</strong> seguidas na <a className={Styles.cakto} href="https://www.cakto.com.br/" target="_blank">plataforma Cakto</a>. O material já atingiu a marca de <strong>+6.500 compradores satisfeitos</strong>.</span>}
+                        />
 
                         <ProjetosProps
                         href="/jradv"

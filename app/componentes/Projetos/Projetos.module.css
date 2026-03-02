@@ -11,6 +11,19 @@
     font-size: 50px;
     margin-left: 120px;
 }
+.teste{
+    background-color: red;
+}
+.selo{
+    position: absolute;
+    right: -20px;
+    top: 45px;
+    width: 45px;
+    z-index: 10000;
+}
+.cakto{
+    color: green;
+}
 .downarrow{
     font-size: 30px;
 }
@@ -33,8 +46,14 @@
 .projeto{
     width: 530px;
     height: 500px;
+    position: relative;
 }
 .projetoimg{
+    width: 530px;
+    height: 289px;
+    border-radius: 15px;
+}
+.projetoimg2{
     width: 530px;
     height: 289px;
     border-radius: 15px;
@@ -44,6 +63,11 @@
     font-size: 30px;
 }
 .projetoimg img{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+.projetoimg2 img{
     width: 100%;
     height: 100%;
     border-radius: 15px;
