@@ -21,7 +21,7 @@ export default function Projetos() {
                         <ProjetosProps2 className={Styles.teste}
                         href="https://www.instagram.com/organizafinanc/"
                         imagem="./verdinha.png"
-                        titulo="Sua amiga financeira verdinha"
+                        titulo="Minha planilha"
                         descricao={<span>Minha planilha de controle financeiro alcançou o <strong>top 100</strong> nacional de produtos mais vendidos por <strong>duas semanas</strong> seguidas na <a className={Styles.cakto} href="https://www.cakto.com.br/" target="_blank">plataforma Cakto</a>. O material já atingiu a marca de <strong>+6.500 compradores satisfeitos</strong>.</span>}
                         />
 
