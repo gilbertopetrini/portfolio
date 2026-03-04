@@ -21,7 +21,7 @@ export default function Greetings2(){
                     </div>
                     <div className={styles.iconesTec}>
                         <div className={styles.habilidades}>
-                            <p>Minhas <strong>principais habilidades</strong> estão focadas em noção de algoritmo, <strong>JavaScript</strong> (<strong className={styles.highlight}>350+ exercícios</strong> resolvidos) e constantemente evoluindo meu <strong >React</strong>. Abaixo está todo meu processo nos certificados.
+                            <p>Minhas <strong>principais habilidades</strong> estão focadas em organização de dados e planilhas, noção de algoritmo, <strong>JavaScript</strong> (<strong className={styles.highlight}>350+ exercícios</strong> resolvidos) e constantemente evoluindo meu <strong >React</strong>. Abaixo está todo meu processo nos certificados.
                             </p>
                         </div>
                         <div className={styles.icones}>
