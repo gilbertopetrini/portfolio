@@ -39,6 +39,7 @@ export default function Greetings2(){
                     <div className={styles.certificadosImgs}>
                         <a href="https://www.devmedia.com.br/certificado/tecnologia/javascript/gilberto-petrini-dias" target="_blank"><img src="/certificadoJs.png" className={styles.certificadoImg}/></a>
                         <a href="https://www.devmedia.com.br/certificado/tecnologia/react/gilberto-petrini-dias" target="_blank"><img src="/certificadoRc.png" className={styles.certificadoImg}/></a>
+                        <a target="_blank"><img src="/certificadoEx.png" className={styles.certificadoImg}/></a>
                     </div>                
                 </div>
             </div>
